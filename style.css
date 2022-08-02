@@ -1,0 +1,89 @@
+body {
+    background: rgb(40, 164, 210);
+    font: normal 15pt Arial;
+
+
+}
+
+header {
+    color: white;
+    text-align: center;
+
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgb(121, 121, 121);
+
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+
+section input {
+    height: 30px;
+    appearance: auto;
+    border-radius: 5px;
+
+    box-shadow: 0 0 0 0;
+    border: 2px solid rgb(0, 72, 108);
+    outline: 0;
+    
+}
+
+
+
+
+
+section .button {
+    background: rgb(131, 202, 237);
+    height: 37px;
+    width: 116px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+
+    transition: 0.2s;
+    
+}
+
+section .button:hover {
+    cursor: pointer;
+    background: rgb(30, 139, 194);
+    font-weight: 700;
+    border: 2px solid rgb(0, 72, 108);
+}
+
+
+section span {
+    margin-left: 25px;
+}
+
+
+
+
+section .lp {
+    width: 120px;
+    padding: 5px;
+    display: inline-block;
+
+}
+
+section select  {
+    text-align: center;
+    
+}
+
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+
+}

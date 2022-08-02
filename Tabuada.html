@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabuada</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <h1>--Tabuada--</h1>
+    </header>
+
+    <!-- SECTION -->
+    <section>
+      <div>
+        <p>
+          Numero: <input type="number" name="num" id="txtn" placeholder="Número entre 1 e 10" />
+          <input type="button" class="button" value="Gerar tabuadas" onclick="tabuada()" />
+          <input type="button" class="button" value="Limpar tabuadas" onclick="limpar()" />
+        </p>
+      </div>
+
+        
+      <div>
+
+        <select name="Tabuada" class="lp" id="mult"  size="11">
+          <option >Multiplicação</option>
+        </select> 
+     
+        <select name="Tabuada" class="lp" id="dividir" size="11">
+          <option value="">Divisão</option>
+        </select>
+      
+
+        <select name="Tabuada" class="lp" id="somar" size="11">
+          <option value="">Soma</option>
+          
+        </select>
+
+        <select name="Tabuada" class="lp" id="sub" size="11">
+          <option value="">Subtração</option>
+          
+        </select>
+
+      
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <p>&copy;Tabuada</p>
+    </footer>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
